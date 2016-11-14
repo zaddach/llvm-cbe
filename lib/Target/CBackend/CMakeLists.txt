@@ -1,5 +1,5 @@
-add_llvm_target(CBackendCodeGen
-  CBackend.cpp
-  )
+ADD_LIBRARY(CBackendCodeGen
+    CBackend.cpp
+)
 
 add_subdirectory(TargetInfo)
